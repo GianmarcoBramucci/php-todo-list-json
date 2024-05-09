@@ -8,9 +8,14 @@ Vue.createApp({
         }
     },
     methods: {
-        deleteTodo: function(array,object){
-            array.splice((object.id-1),1,'');
-            
+        deleteTodo: function(index){
+            const data ={
+                id : index
+            };
+            axios.delete(this.apiurl,{ data }).then((res)=>{
+                this.todoList= res.data;
+                console.log(this.todoList);
+            });
         },
         changeStatus: function(object){
             if(object.done){

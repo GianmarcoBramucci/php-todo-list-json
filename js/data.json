@@ -23,26 +23,5 @@
         "id": 5,
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe natus eum quae.",
         "done": false
-    },
-    {
-        "id": "6",
-        "text": "sss",
-        "done": "false"
-    },
-    {
-        "id": "7",
-        "text": "ssss",
-        "done": "false"
-    },
-    {
-        "id": "8",
-        "text": "sss",
-        "done": "false"
-    },
-    {
-        "id": "9",
-        "text": "sss",
-        "done": "false"
     }
-    
 ]
